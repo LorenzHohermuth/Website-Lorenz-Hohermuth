@@ -1,0 +1,225 @@
+
+/* Home */
+
+
+
+
+/* Main */
+.home-main {
+    background-color: rgb(236, 236, 236);
+    height: 530px;
+    background-image: url("images/connect-background-white.jpg");
+    background-size: 100%;
+    width: 100%;
+    font-size: 60px;
+    width: 100%;
+}
+.title-home-main{
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    color: rgb(65, 65, 65);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 809px){
+    .home-main{
+        height: 320px;
+    }
+}
+@media screen and (max-width: 481px){
+    .home-main{
+        height: 170px;
+    }
+}
+
+
+
+
+/* Section */
+.block-section{
+    background-color: whitesmoke;
+    height: 1050px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+section figure {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+section figure img {
+    height: 400px;
+    width: 400px;
+    border-radius: 6px;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow:  gray 0 0 15px;
+}
+.Desing{
+    background-color: rgb(120, 128, 130);
+}
+.Code{
+    background-color: white;
+}
+
+
+/* Responsive */
+
+@media screen and (min-width: 1615px){
+    section figure img{
+        height: 481px;
+        width: 481px;
+    }
+    .block-section{
+        height: 1100px;
+    }
+}
+@media screen and (max-width: 1415px){
+    .block-section{
+        height: 1550px;
+    }
+}
+@media screen and (max-width: 801px){
+    .block-section{
+        height: 3200px;
+    }
+}
+@media screen and (max-width: 519px){
+    section figure img{
+        height: 300px;
+        width: 300px;
+    }
+    .block-section{
+        height: 2300px;
+    }
+}
+@media screen and (max-width: 389px){
+    section figure img{
+        height: 200px;
+        width: 200px;
+    }
+    .block-section{
+        height: 1700px;
+    }
+}
+
+/* 2 between section gray*/
+.IIbs{
+    background-color: whitesmoke;
+    height: 70px;
+}
+
+
+/* Video */
+.v-section {
+   height: 70vh;
+   display: flex;
+   align-items: center;
+}
+.fullscreenvideo-wrap {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+.fullscreenvideo-wrap video{
+    min-width: 100%;
+    min-height: 100%;
+} 
+@media screen and (max-width: 900px){
+    .v-section, .fullscreenvideo-wrap{
+        height: 0px;
+        display: none;
+    }
+}
+
+
+/* Text section */
+.text-section{
+    height: 600px;
+    font-size: 50px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-section .image {
+    border: black solid 5px;
+    border-radius: 50%;
+    height: 230px;
+    width: 230px;
+    margin: auto;
+    text-indent: -99999999999999px;
+    background-color: whitesmoke;
+    box-shadow:  rgb(156, 156, 156) 0 0 15px;
+    background-image: url("images/Lorenz\ Hohermuth.jpeg");
+    background-position: 2px;
+    background-size: 230px;
+    background-size: 100%;
+}
+.text-section .text{
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 1000px;
+    padding: 30px;
+    background-color: whitesmoke;
+    box-shadow:  rgb(156, 156, 156) 0 0 15px;
+}
+
+@media screen and (max-width: 1130px){
+    .text-section .text{
+        padding: 20px;
+        width: 800px;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 888px){
+    .text-section .text{
+        padding: 10px;
+        width: 620px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 670px){
+    .text-section{
+        height: 490px;
+    }
+    .text-section .text{
+        padding: 10px;
+        width: 620px;
+        font-size: 30px;
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 420px){
+    .text-section{
+        height: 650px;
+    }
+}
+
+
+
+
+/* last section */
+.last-section{
+    background-image: url("images/codewhithe-background.png");
+    background-position: center;
+    background-size: 100%;
+    height: 330px;
+}
+
+@media screen and (max-width: 601px){
+    .last-section{
+        height: 270px;
+    }
+}
+@media screen and (max-width: 480px){
+    .last-section{
+        height: 151px;
+    }
+}

@@ -1,0 +1,101 @@
+/* Basic */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+}
+
+
+/* between-section */
+.between-section{
+    height: 2px;
+    color: white;
+}
+
+
+/* Header */
+header {
+    height: 90px;
+    background-color: white;
+}
+header nav a {
+
+    display: inline-block;
+    margin: 35px;
+}
+
+
+@media screen and (max-width: 755px){
+    header{
+        height: 370px;
+    }
+    header nav{
+        display: flex;
+        flex-direction: column;
+    }
+    header nav a{
+        margin: auto;
+        margin-top: 35px;
+    }
+    
+}
+
+
+
+
+
+/* Logo */
+.logo {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    margin: 0 0 0 5px;
+    top: -30px;
+    color: black;
+    background-image: url("images/Logo.png");
+    background-size: 80px;
+    text-indent: -99999999999px;
+}
+@media screen and (max-width: 755px){
+    .logo {
+        top: 20px;
+        margin: auto;
+    }
+}
+
+
+/* footer */
+footer{
+    height: 50px;
+    background-color: whitesmoke;
+}
+footer a{
+    display: inline-block;
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    margin: 15px 0 0 40px;
+}
+footer a:hover{
+    color: rgb(94, 94, 94);
+}
+@media screen and (max-width: 750px){
+    footer{
+        display: flex;
+    }
+    footer a {
+        margin: auto;
+    }
+}
+@media screen and (max-width: 370px){
+    footer{
+        height: 150px;
+        flex-direction: column;
+    }
+}

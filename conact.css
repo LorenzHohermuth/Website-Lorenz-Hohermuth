@@ -1,0 +1,82 @@
+/* Contact */
+
+
+
+/* contact block */
+.contact-block{
+    background-color: whitesmoke;
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-block a{
+    display: inline-block;
+    height: 110px;
+    width: 110px;
+    margin: auto;
+}
+.contact-block a img {
+    height: 110px;
+    width: 110px;
+    border: solid rgb(153, 153, 153) 1px;
+    border-radius: 50%;
+    box-shadow:  rgb(179, 179, 179) 0 0 5px;
+}
+
+/* contact main */
+.contact-main{
+    background-image: url("images/contact.jpg");
+    height: 530px;
+    width: 100%;
+    background-size: 100%;
+    font-size: 60px;
+}
+.text-contact-main{
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.contact-section{
+    background-image: url("images/backgroundwhite2.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+@media screen and (max-width: 956px){
+    .contact-main{
+        height: 348px;
+    }
+}
+@media screen and (max-width: 633px){
+    .contact-main{
+        height: 273px;
+    }
+}
+@media screen and (max-width: 485px){
+    .contact-main{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 354px){
+    .contact-main{
+        height: 158px;
+    }
+}
+@media screen and (max-width: 1083px){
+    .contact-section{
+        height: 362px;
+    }
+}
+@media screen and (max-width: 660px){
+    .contact-section{
+        height: 271px;
+    }
+}
+@media screen and (max-width: 485px){
+    .contact-section{
+        height: 156px;
+    }
+}

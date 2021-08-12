@@ -1,0 +1,11 @@
+.contaner{
+    display: flex;
+    flex-direction: column;
+}
+.contaner a{
+    margin: auto;
+    margin-top: 35px;
+}
+body{
+    background-color: whitesmoke;
+}

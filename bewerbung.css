@@ -1,0 +1,90 @@
+/* Bewerbung */
+
+
+
+/* Bewerbung main */
+.bewerbung-main{
+    background-image: url("images/Writing.jpg");
+    height: 530px;
+    background-size: 100%;
+    width: 100%;
+    font-size: 60px;
+}
+.text-bewerbung{
+    color: whitesmoke;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+
+}
+
+/* Bewerbung pdf */
+.container{
+    height: 1500px;
+    background-color: whitesmoke;
+    padding: 140px;
+}
+.pdf{
+    height: 1500px;
+}
+
+@media screen and (max-width: 1422px){
+    .bewerbung-main{
+        height: 350px;
+    }
+}
+@media screen and (max-width: 944px){
+    .bewerbung-main{
+        height: 252px;
+    }
+}
+@media screen and (max-width: 684px){
+    .bewerbung-main{
+        height: 183px;
+    }
+}
+@media screen and (max-width: 485px){
+    .bewerbung-main{
+        height: 150px;
+    }
+}
+@media screen and (max-width: 398px){
+    .bewerbung-main{
+        height: 105px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .container{
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 860px){
+    .container{
+        height: 800px;
+    }
+    .container div{
+        margin: 100px;
+    }
+    .pdf{
+        height: 700px;
+    }
+}
+@media screen and (max-width: 680px){
+    .container{
+        height: 600px;
+    }
+    .container div{
+        margin: 0px; 
+    }
+    .pdf{
+        height: 600px;
+    }
+}
+
+
+@media screen and (max-width: 390px){
+    .home-main, .contact-main, .bewerbung-main{
+        font-size: 40px;
+    }
+}
