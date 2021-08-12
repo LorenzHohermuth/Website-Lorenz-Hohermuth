@@ -1,8 +1,3 @@
-//relode (vid)
-reload();
-
-
-
 //background colorpicker
 
 function ChangeColor() {
